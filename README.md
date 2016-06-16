@@ -1,2 +1,2 @@
 # infra-elasticsearch
-Elasticsearch Docker for AWS
+Elasticsearch Docker
