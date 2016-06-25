@@ -1,5 +1,5 @@
-FROM elasticsearch:2.3
-MAINTAINER david@driveclutch.com
+FROM elasticsearch:1.7.4
+MAINTAINER David Hallum <david@driveclutch.com>
 
 RUN plugin install lmenezes/elasticsearch-kopf
 
