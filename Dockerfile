@@ -1,5 +1,5 @@
-FROM elasticsearch:2.3.5
+FROM elasticsearch:5.0.1
 MAINTAINER david@driveclutch.com
 
-RUN plugin install lmenezes/elasticsearch-kopf
+RUN elasticsearch-plugin install repository-s3
 
